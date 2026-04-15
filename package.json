@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx tsx server.ts"
   },
   "dependencies": {
     "clsx": "2.1.1",
@@ -17,7 +18,8 @@
     "react-dom": "19.2.3",
     "react-hot-toast": "^2.6.0",
     "tailwind-merge": "3.4.0",
-    "zustand": "^5.0.12"
+    "zustand": "^5.0.12",
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.17",
@@ -28,6 +30,8 @@
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
     "vite": "7.2.4",
-    "vite-plugin-singlefile": "2.3.0"
+    "vite-plugin-singlefile": "2.3.0",
+    "tsx": "^4.21.0"
   }
 }
+
